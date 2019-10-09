@@ -61,3 +61,12 @@ R – RRT
 You can see two functions, _Trajectory_ and _RRT_, are added.<br>
 **Attention**:  _Trajectory_ can only be used in _nrsl.world_ environment, and _RRT_ can be used in both environments but better in _nrsl_with_obstacles.world_ environment.<br>
 <br> Here is what it goes:
+
+![image](https://github.com/Shicheng-Liu/ardrone_rrt_gazebo_simulator/blob/master/Trajectory.gif)
+
+The drone follows the assigned trajectory(_rectangle_).
+
+![image](https://github.com/Shicheng-Liu/ardrone_rrt_gazebo_simulator/blob/master/RRT.gif)
+
+The drone will fly to the assigned original place first and then you can click to assign the target position.
+<br> This alogorithm actually uses RRT* and has 2000 iterations(to save time, you can increase the iterations to make the path looker). The drone will follow the path once the path is drawn on pygame.
