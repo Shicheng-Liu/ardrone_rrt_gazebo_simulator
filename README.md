@@ -38,3 +38,26 @@ or
 ```
 roslaunch cvg_sim_gazebo nrsl_with_obstacles.launch
 ```
+Now, you can see your gazebo simulated world. Then, run the controller:
+```
+roslaunch ardrone_rrt ardrone_rrt.launch
+```
+You will see a Qt window which is the same with the one in _ardrone_tutorials_ since this work is based on _ardrone_tutorials_. You can still use _keyboard_controller_ to command the drone to move, Here is the control keys:<br>
+W – Pitch Forward     <br>S – Pitch Backward            
+A – Roll Left                                        <br>D – Roll Right
+<br>
+Q – Yaw Left                                        <br> E – Yaw Right
+<br>
+Z – Increase Altitude                                <br>C – Decrease Altitude
+<br>
+Y – Takeoff                                         <br> H – Land
+<br>
+SPACEBAR – EMERGENCY STOP
+<br>
+T – Trajectory
+<br>
+R – RRT
+<br><br>
+You can see two functions, _Trajectory_ and _RRT_, are added.<br>
+**Attention**:  _Trajectory_ can only be used in _nrsl.world_ environment, and _RRT_ can be used in both environments but better in _nrsl_with_obstacles.world_ environment.<br>
+<br> Here is what it goes:
