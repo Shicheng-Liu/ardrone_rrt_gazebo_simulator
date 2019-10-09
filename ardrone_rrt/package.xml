@@ -1,0 +1,18 @@
+<package>
+	<name>ardrone_rrt</name>
+	<version>1.0.0</version>
+	<description>
+		gazebo simulation of ardrone_rrt based on ardrone_tutorial
+	</description>
+	<maintainer email="mail@mail.com">Shicheng Liu</maintainer>
+	
+	<buildtool_depend>catkin</buildtool_depend>
+	
+	<run_depend>ardrone_autonomy</run_depend>
+	<run_depend>joy</run_depend>
+	
+	<license>BSD</license>
+	<url>http://github.com/Shicheng-Liu/ardrone_rrt</url>
+</package>
+
+
